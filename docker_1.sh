@@ -1,4 +1,4 @@
 #!/bin/bash
-amaozn-linux-extras install docker -y
+amazon-linux-extras install docker -y
 systemctl start docker
 docker pull jenkins/jenkins:lts
